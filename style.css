@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 234, 243);
+    display: grid;
+    place-content: center;
+    min-height: 100vh; 
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left:80px ;
+    margin-top: 30px;
+    
+}
+.logo{
+    width:150px;
+}
+.top a{
+    color:rgb(94, 93, 93);
+}
+.top{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: larger;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.btn1{
+    width:110px;
+    height: 41px;
+    margin-top: -7px;
+    color:rgb(82, 183, 138) ;
+    font-weight: 800;
+    border: 2px solid rgb(82, 183, 138);
+    border-radius: 5px;
+    margin-left: 110px;
+}
+.btn1:hover{
+    background-color:rgb(82, 183, 138) ;
+    color: white;
+}
+.btn2{
+    width:160px;
+    height: 43px;
+    margin-top: -10px;
+    color:white;
+    background-color:rgb(82, 183, 138)  ;
+    font-weight: 790;
+    border: 2px solid rgb(82, 183, 138);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.starter{
+    background-color: white;
+    width: 380px;
+    height: 900px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    font-size: 43px;
+    color:rgb(94, 93, 93) ;
+    
+}
+.topic{
+    color:rgb(80, 80, 80) ;
+    padding-left: 40px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.text{
+    color: rgb(80, 80, 80);
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 17px;
+
+}
+.spn{
+    padding-left: 40px;
+    padding-top: 17px;
+    color:rgb(94, 93, 93) ;
+    
+}
+.month{
+    padding-left: 114px;
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+
+}
+.price{
+    font-size: 75px;
+    
+}
+.dollar{
+    padding-right: 10px;
+    font-size: 40px;
+    position: relative;
+    bottom: 27px;
+}
+.small{
+    position: relative;
+    left:210px;
+    bottom: 28px;
+    font-size: 20px;
+}
+.check{
+    width:25px;
+}
+hr{
+    position: relative;
+    right: 15px;
+    bottom: 25px;
+    border: 1px solid rgb(82, 183, 138);
+    background-color:rgb(82, 183, 138);
+}
+.row1{
+    display: grid;
+    grid-template-columns: 9% 91%;
+    padding-left: 40px;
+    padding-top: 25px;
+    gap:17px;
+}
+p{
+    font-size: 20px;
+    color: rgb(94, 93, 93) ;
+}
+.btn3{
+    width:270px;
+    height: 55px;
+    color:white;
+    background-color:rgb(82, 183, 138)  ;
+    font-weight: 790;
+    border: 2px solid rgb(82, 183, 138);
+    border-radius: 5px;
+    margin-top: 180px;
+    margin-left: 18px;
+}
+.btn4{
+    width:270px;
+    height: 55px;
+    color:white;
+    background-color:rgb(82, 183, 138)  ;
+    font-weight: 790;
+    border: 2px solid rgb(82, 183, 138);
+    border-radius: 5px;
+    margin-top: 140px;
+    margin-left: 18px;
+}
+.btn5{
+    width:270px;
+    height: 55px;
+    color:white;
+    background-color:rgb(82, 183, 138)  ;
+    font-weight: 790;
+    border: 2px solid rgb(82, 183, 138);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+.first{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 70px;
+    margin-left: 130px;
+}
+.three{
+    background-color: white;
+    width:1250px;
+    margin-left: 125px;
+    height: 160px;
+    margin-top: 50px;
+}
+h2{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.text2{
+    padding-left: 40px;
+    margin-top: 6px;
+}
+.firstrow{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.free{
+    font-size: 40px;
+    position: relative;
+   left:1020px;
+   bottom:70px
+}
+.month1{
+    position: relative;
+    left:1010px;
+    bottom: 70px;
+}
+.learn{
+    color: rgb(82, 183, 138)  ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40px;
+    position: relative;
+    top:10px;
+}
+.month2{
+  position: relative;
+  left: 1020px;
+  bottom: 70px;
+}
+.green{
+    color:rgb(82, 183, 138)  ;
+}
+.blue{
+    background-color: rgb(200, 221, 240);
+    width:1000px;
+    height:200px;
+    margin-left: 255px;
+    margin-top: 90px;
+}
+.business{
+    padding-left: 45px;
+    padding-top: 56px;
+    font-size: 50px;
+}
+.btn6{
+    width:150px;
+    height: 55px;
+    color:white;
+    background-color:rgb(82, 183, 138)  ;
+    font-weight: 790;
+    border: 2px solid rgb(82, 183, 138);
+    border-radius: 5px;
+    position: relative;
+    left: 770px;
+    bottom: 90px;
+}
+.grentext{
+    color:rgb(82, 183, 138);
+    font-size:40px;
+    display: grid;
+    place-content: center;
+    margin-top: 120px;
+}
+.hvrr:hover{
+    color: rgb(82, 183, 138)  ;
+
+}
+.hvrr{
+    color:rgb(94, 93, 93) ;
+    font-size: 30px;
+    margin-left: 350px;
+    margin-top: 60px;
+}
+.long{
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.pricing{
+    color:rgb(82, 183, 138);
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    margin-top: 170px;
+    margin-left: 150px;
+}
+.texrlast{
+    font-size: 17px;
+}
+.texrlast:hover{
+    color: rgb(31, 31, 31);
+}
+@media screen and (max-width:450px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(225, 234, 243);
+        display: grid;
+        place-content: center;
+        min-height: 100vh; 
+    }
+    .top{
+        display: none;
+    }
+    .buttons{
+        display: none;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        margin-left: 500px;
+        gap:20px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        margin-top: 130px;
+        font-size: 26px;
+        color:rgb(94, 93, 93) ;
+        margin-left: 460px;
+        
+    }
+    .three{
+        background-color: white;
+        width:400px;
+        margin-left: 470px;
+        height: 260px;
+        margin-top: 50px;
+        padding-top: 30px;
+    }
+    .free{
+        font-size: 40px;
+        position: relative;
+        top:10px;
+        right:900px;
+    }
+    .blue{
+        background-color: rgb(200, 221, 240);
+        width:400px;
+        height:450px;
+        margin-left: 470px;
+        margin-top: 90px;
+    }
+    .grentext{
+        color:rgb(82, 183, 138);
+        font-size:30px;
+        display: grid;
+        place-content: center;
+        margin-left: 460px;
+        margin-top: 120px;
+    }
+    .hvrr{
+        color:rgb(94, 93, 93) ;
+        font-size: 30px;
+        margin-left: 460px;
+        margin-top: 60px;
+    }
+    .long{
+        margin-left: 460px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    footer{
+        display: flex;
+        
+        flex-direction: column;
+        margin-top: 170px;
+        margin-left: 460px;
+    }
+    
+    
+}
